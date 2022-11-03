@@ -1,0 +1,65 @@
+
+
+#bgprofile{
+  background-image: linear-gradient(to right,#1d99ac,#1daca0);
+}
+
+
+@media only screen and (max-width:900px) {
+
+  #uiux{
+    height:160px ;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  #urpic{
+   margin-left: 70px;
+    justify-self: center;
+  }
+  #uiux{
+    height:280px ;
+  }
+}
+
+#bgserv1{
+  transition-property: width;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+#service1:hover #bgserv1{
+  background-image: linear-gradient(to right,#4f46e5,#db2777);
+
+}
+#service2:hover #bgserv2{
+  background-image: linear-gradient(to right,#fde047,#0284c7);
+
+}
+#service3:hover #bgserv3{
+  background-image: linear-gradient(to right,#4b5563,#db2777);
+
+}
+#send_mes{
+  background-image: linear-gradient(to right,#1d99ac,#1daca0);
+}
+.table {
+  border-spacing: 0 15px;
+}
+
+i {
+  font-size: 1rem !important;
+}
+
+.table tr {
+  border-radius: 20px;
+}
+
+tr td:nth-child(n+5),
+tr th:nth-child(n+5) {
+  border-radius: 0 .625rem .625rem 0;
+}
+
+tr td:nth-child(1),
+tr th:nth-child(1) {
+  border-radius: .625rem 0 0 .625rem;
+}
